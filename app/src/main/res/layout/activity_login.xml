@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="top|left">
+
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="213dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginLeft="77dp"
+        android:background="@drawable/logo"/>
+
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginBottom="171dp"
+        android:background="@drawable/btn"
+        android:id="@+id/login_guest"/>
+
+    <TextView
+        android:layout_width="182dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="536dp"
+        android:textSize="12sp"
+        android:textColor="#b9b9b9"
+        android:letterSpacing="-0.04"
+        android:gravity="center_horizontal"
+        tools:text="ⓒ 2018. Unithon all rights reserved."
+        />
+
+
+
+</LinearLayout>

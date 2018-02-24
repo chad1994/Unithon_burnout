@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|center"
+    android:orientation="vertical"
+    tools:context="com.project.unithon.unithon.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="213dp"
+        android:layout_height="196dp"
+        android:layout_marginBottom="191dp"
+        android:background="@drawable/logo" />
+
+
+
+    <TextView
+        android:layout_width="182dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="68dp"
+        android:gravity="center_horizontal"
+        android:letterSpacing="-0.04"
+        android:textColor="#b9b9b9"
+        android:textSize="12sp"
+        tools:text="ⓒ 2018. Unithon all rights reserved." />
+
+
+</LinearLayout>
